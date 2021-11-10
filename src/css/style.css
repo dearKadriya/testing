@@ -1,0 +1,48 @@
+.card-checker {
+    box-sizing: border-box;
+    display: block;
+}
+.cards-icons {
+    height: 25px;
+    display: block;
+    list-style-type: none;
+    margin: 10px 0 20px;
+    height: 50px;
+    /*box-sizing: border-box;*/
+
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input {
+    -moz-appearance: textfield;
+}
+.card {
+    float: left;
+    width: 80px;
+    height: 50px;
+    background-position: 0 0;
+    margin-right: 4px;
+    background-size: cover;
+    color: transparent;
+    border: 10px green;
+
+}
+.card-disabled {
+    opacity: .3;
+}
+
+.visa {
+    background-image: url("../img/visa_curved.png");
+}
+.mastercard {
+    background-image: url("../img/mastercard_curved.png");
+}
+.world {
+    background-image: url("../img/world-resize.png");
+}
+.card-checker {
+    width: 400px;
+    height: 400px;
+}
