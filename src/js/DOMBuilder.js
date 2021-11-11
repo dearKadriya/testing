@@ -12,7 +12,7 @@ export class DOMBuilder {
         error_message.innerText = message;
         this.elem.insertAdjacentElement('afterend', error_message)
     }
-    DeleteMessage() {
+    deleteMessage() {
         if (this.find_error_message) {
             this.find_error_message.remove();
         }

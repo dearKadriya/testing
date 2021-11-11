@@ -3,12 +3,11 @@
     display: block;
 }
 .cards-icons {
-    height: 25px;
+    /*height: 25px;*/
     display: block;
     list-style-type: none;
     margin: 10px 0 20px;
     height: 50px;
-    /*box-sizing: border-box;*/
 
 }
 input::-webkit-inner-spin-button {
@@ -32,7 +31,9 @@ input {
 .card-disabled {
     opacity: .3;
 }
-
+.discover {
+    background-image: url("../img/discover_curved.png");
+}
 .visa {
     background-image: url("../img/visa_curved.png");
 }
@@ -40,9 +41,12 @@ input {
     background-image: url("../img/mastercard_curved.png");
 }
 .world {
-    background-image: url("../img/world-resize.png");
+    background-image: url("../img/world-resize-2.png");
+}
+.american-express {
+    background-image: url("../img/american_express_curved.png");
 }
 .card-checker {
-    width: 400px;
+    width: 800px;
     height: 400px;
 }

@@ -14,7 +14,7 @@ export class ButtonController {
         this.button.addEventListener('click',  (event) => {
             event.preventDefault();
             let message = this.validator.validate();
-            this.builder.DeleteMessage()
+            this.builder.deleteMessage()
             this.builder.showMessage(message)
         })
     }

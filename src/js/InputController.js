@@ -1,13 +1,11 @@
-import {ButtonController} from "./ButtonController";
-import {DOMBuilder} from "./DOMBuilder";
-import {CheckPaymentSystem} from "./CheckPaymentSystem";
+
 
 export class InputController {
-    constructor() {
+    constructor(ButtonController, DOMBuilder, CheckPaymentSystem) {
         this.input = document.body.querySelector('.card-input')
-        this.button = new ButtonController()
-        this.builder = new DOMBuilder()
-        this.paymentCheker = new CheckPaymentSystem()
+        this.button = new ButtonController
+        this.builder = new DOMBuilder
+        this.paymentCheker = new CheckPaymentSystem
         this.addHandler()
     }
     addHandler() {
